@@ -1,0 +1,13 @@
+.detail-dish-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  height: 600px;
+  padding: 20px;
+}
+.dish-item-img {
+  width: 400px;
+  height: 400px;
+}

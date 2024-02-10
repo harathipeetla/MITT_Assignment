@@ -1,0 +1,81 @@
+.dish-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-dish-card {
+  list-style-type: none;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.each-dish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 12px;
+  padding: 12px 6px 12px 6px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.dish-image {
+  width: 200px;
+  height: 200px;
+}
+.dish-category {
+  text-decoration: none;
+  color: #ab8809;
+  font-family: Calibri;
+  text-align: center;
+  font-size: 24px;
+}
+
+.link-element {
+  text-decoration: none;
+}
+.adding-funcs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add-to-cart-btn {
+  padding: 6px 12px 6px 12px;
+  outline: none;
+  border-radius: 4px;
+  background-color: #75858f;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-btn-container {
+  margin: 0px 12px 0px 12px;
+}
+.heart {
+  color: #aa9da1;
+  font-size: 20px;
+}
+.pagination-container {
+  align-self: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  list-style-type: none;
+}
+.page-link {
+  border: none;
+  padding: 4px 8px 4px 8px;
+  background-color: #0a537d;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
